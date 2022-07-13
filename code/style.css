@@ -265,15 +265,70 @@ button#signup {
     flex-direction: row;
     flex: 2;
     justify-content: center;
+    align-items: center;
     background-color: #3882F6;
+    margin-left: 128px;
+    margin-right: 128px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    font-size: 24px;
+    color: #E5E7EB;
 }
+
+#four-center {
+    display: flex;
+    flex: 1;
+
+
+}
+
+#four-center #left {
+    display: flex;
+    flex:3 ;
+    margin-right: 0px;
+    margin-left: 0px;
+    gap: 15px;
+
+}
+
+#four-center #right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+
+
+}
+
+
+#second {
+    color: #F9FAF8;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    font-weight: 400;
+    font-size: 32px;
+    height: 60px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-width: 6px;
+
+
+}
+
 
 .footer {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
+    align-items: center;
     color: white;
-    flex: 0;
+    flex: 1;
     justify-content: center;
 }
 
