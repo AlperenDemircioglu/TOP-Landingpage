@@ -273,13 +273,12 @@ button#signup {
     margin-bottom: 96px;
     font-size: 24px;
     color: #E5E7EB;
+    border-radius: 10px;
 }
 
 #four-center {
     display: flex;
     flex: 1;
-
-
 }
 
 #four-center #left {
